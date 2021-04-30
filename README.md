@@ -1,2 +1,2 @@
 # python-basics-byme
-RPG Dice.
+Simple Python Projects made by me
