@@ -1,2 +1,2 @@
 # python-basics-byme
-Simples Python Projects made by me.
+Simple Python Projects made by me.
