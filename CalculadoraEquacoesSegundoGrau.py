@@ -4,16 +4,16 @@ import math
 import cmath
 
 def raizes_equa(a, b, c):
-    delta = b**2 - 4 * a * c
+    delta = b**2 - (4 * a * c)
     if (delta==0):
         raiz_1 = -b/2*a
         raiz_2 = "não tem"
     elif (delta > 0):
-        raiz_1 = (-b + math.sqrt(delta))/2*a
-        raiz_2 = (-b - math.sqrt(delta))/2*a
+        raiz_1 = (-b + math.sqrt(delta))/(2*a)
+        raiz_2 = (-b - math.sqrt(delta))/(2*a)
     else:
-        raiz_1 = (-b + cmath.sqrt(delta))/2*a
-        raiz_2 = (-b - cmath.sqrt(delta))/2*a
+        raiz_1 = (-b + cmath.sqrt(delta))/(2*a)
+        raiz_2 = (-b - cmath.sqrt(delta))/(2*a)
     return [raiz_1, raiz_2]
 
 affirmative_resp = {"yes", "sim", "claro", "com certeza", "uhum", "s", "si", "ye", "ss"}
